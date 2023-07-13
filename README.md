@@ -3,11 +3,12 @@ Developed a food classification system using pre-trained mobilenet.
 
 For testing with external images the following code can be used once the model is trained.
 
-from google.colab import files
-uploaded = files.upload()
-import cv2
-image = cv2.imread('test_image.jpg')
-import numpy as np
+
+# from google.colab import files
+# uploaded = files.upload()
+# import cv2
+# image = cv2.imread('test_image.jpg')
+# import numpy as np
 
 # Preprocess the image (resize, normalize, etc.)
 preprocessed_image = preprocess_image(image)  # Replace with your actual preprocessing function
